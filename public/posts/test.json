@@ -1,1 +1,7 @@
-{}
+{
+  "title": "Test Blog Post",
+  "preview": "Blog Preview",
+  "content": "This is the body of a test blog pose",
+  "tags": ["example", "post"],
+  "created_at": "Sun, 16 Jun 2024 00:56:03 GMT"
+}

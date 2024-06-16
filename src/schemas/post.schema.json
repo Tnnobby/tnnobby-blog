@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/Tnnobby/tnnobby-blog/main/src/schemas/post.schema.json?raw=true",
+  "title": "Blog Post",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "Title of Blog",
+      "type": "string"
+    },
+    "created_at": {
+      "description": "Created at time of post",
+      "type": "string"
+    },
+    "content": {
+      "description": "Blog Body",
+      "type": "string"
+    },
+    "preview": {
+      "description": "Blog Preview",
+      "type": "string"
+    },
+    "tags": {
+      "description": "Array of post tags",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
