@@ -1,6 +1,4 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/Tnnobby/tnnobby-blog/main/src/schemas/post.schema.json?raw=true",
   "title": "Blog Post",
   "type": "object",
   "properties": {
